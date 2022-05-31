@@ -13,11 +13,12 @@ body {
 }
 
 .App {
+  padding: 0 24px;
   width: 375px;
 }
 
-@media (min-width: 1440px) {
-  .App {
-    width: 1440px;
-  }
-}
+// @media (min-width: 1440px) {
+//   .App {
+//     width: 1440px;
+//   }
+// }

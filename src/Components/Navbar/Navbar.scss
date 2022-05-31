@@ -1,0 +1,78 @@
+@import "../../Variables/SassVariables.scss";
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: relative;
+  width: 327px;
+
+  .hamburger {
+    border: none;
+    background-color: transparent;
+    color: $grey;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links {
+    align-items: center;
+    background-color: $violet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 383px;
+    left: 0;
+    position: absolute;
+    top: 56px;
+    width: 327px;
+
+    .nav-group-one {
+      padding-top: 40px;
+
+      li {
+        margin-bottom: 30px;
+      }
+    }
+
+    .nav-group-two {
+      border-top: 1px solid $grey;
+      padding-top: 32px;
+
+      li {
+        margin-bottom: 24px;
+      }
+
+      .sign-up {
+        align-items: center;
+        background-color: $cyan;
+        border-radius: 28px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        height: 48px;
+        width: 279px;
+      }
+    }
+
+    ul {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 279px;
+
+      li {
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
