@@ -1,0 +1,43 @@
+@import "../../Variables/SassVariables.scss";
+
+.main-feature-container {
+  align-items: center;
+  background-color: $violet;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  padding: 24px;
+  position: relative;
+  top: 109px;
+  width: 327px;
+  z-index: 1;
+
+  .short {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .url-input {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 48px;
+    padding-left: 16px;
+    width: 100%;
+  }
+
+  .url-button {
+    background-color: $cyan;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 48px;
+    margin-top: 16px;
+    padding: 11px 91px;
+    width: 100%;
+  }
+}

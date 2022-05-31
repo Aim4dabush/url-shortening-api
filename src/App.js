@@ -1,5 +1,6 @@
 //components
 import Intro from "./Components/Intro/Intro";
+import MainFeature from "./Components/MainFeature/MainFeature";
 import Navbar from "./Components/Navbar/Navbar";
 
 //styles
@@ -17,6 +18,7 @@ function App() {
         />
       </div>
       <Intro />
+      <MainFeature />
     </div>
   );
 }
