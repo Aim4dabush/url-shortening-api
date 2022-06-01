@@ -70,10 +70,18 @@ function Footer() {
         </div>
       </div>
       <div className="footer-media">
-        <FontAwesomeIcon icon={faFacebookSquare} />
-        <FontAwesomeIcon icon={faTwitter} />
-        <FontAwesomeIcon icon={faPinterest} />
-        <FontAwesomeIcon icon={faInstagram} />
+        <a className="media-link" href="/">
+          <FontAwesomeIcon icon={faFacebookSquare} />
+        </a>
+        <a className="media-link" href="/">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a className="media-link" href="/">
+          <FontAwesomeIcon icon={faPinterest} />
+        </a>
+        <a className="media-link" href="/">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
       </div>
     </div>
   );

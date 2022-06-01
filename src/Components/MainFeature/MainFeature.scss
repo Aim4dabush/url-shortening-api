@@ -40,5 +40,9 @@
     margin-top: 16px;
     padding: 11px 91px;
     width: 100%;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }

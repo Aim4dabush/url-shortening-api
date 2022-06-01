@@ -57,6 +57,10 @@
           color: white;
           font-weight: 200;
           text-decoration: none;
+
+          &:hover {
+            color: $cyan;
+          }
         }
       }
     }
@@ -75,5 +79,13 @@
     font-size: 24px;
     margin-top: 48px;
     gap: 24px;
+
+    .media-link {
+      color: white;
+
+      &:hover {
+        color: $cyan;
+      }
+    }
   }
 }

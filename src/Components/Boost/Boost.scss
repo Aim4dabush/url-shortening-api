@@ -20,6 +20,10 @@
     font-size: 20px;
     height: 56px;
     width: 197px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .boost-img {

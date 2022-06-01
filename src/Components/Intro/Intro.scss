@@ -17,6 +17,10 @@
     left: 65px;
     position: relative;
     width: 197px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .intro-content {

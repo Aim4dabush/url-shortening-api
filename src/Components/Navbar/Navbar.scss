@@ -55,6 +55,10 @@
         justify-content: center;
         height: 48px;
         width: 279px;
+
+        &:hover {
+          opacity: 0.8;
+        }
       }
     }
 
