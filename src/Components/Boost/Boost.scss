@@ -1,0 +1,34 @@
+@import "../../Variables/SassVariables.scss";
+
+.boost-container {
+  align-items: center;
+  background-color: $violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  left: -24px;
+  position: relative;
+  width: 375px;
+  z-index: 1;
+
+  .boost-button {
+    background-color: $cyan;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    font-size: 20px;
+    height: 56px;
+    width: 197px;
+  }
+
+  .boost-img {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .boost-title {
+    color: white;
+    font-size: 28px;
+  }
+}

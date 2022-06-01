@@ -11,6 +11,10 @@
   position: relative;
   width: 327px;
 
+  &:nth-child(3) {
+    margin-bottom: 80px;
+  }
+
   &:nth-child(2) {
     margin: 90px 0 90px 0;
   }
