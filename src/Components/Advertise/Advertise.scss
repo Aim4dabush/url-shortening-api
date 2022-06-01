@@ -1,0 +1,22 @@
+@import "../../Variables/SassVariables.scss";
+
+.advertise-container {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  left: -24px;
+  margin-top: 25px;
+  padding-top: 164px;
+  position: relative;
+  width: 375px;
+  z-index: 1;
+
+  .green-line {
+    background-color: $cyan;
+    height: 1014px;
+    position: absolute;
+    width: 8px;
+    z-index: -1;
+  }
+}

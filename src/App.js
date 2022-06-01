@@ -1,4 +1,5 @@
 //components
+import Advertise from "./Components/Advertise/Advertise";
 import Intro from "./Components/Intro/Intro";
 import MainFeature from "./Components/MainFeature/MainFeature";
 import Navbar from "./Components/Navbar/Navbar";
@@ -19,6 +20,7 @@ function App() {
       </div>
       <Intro />
       <MainFeature />
+      <Advertise />
     </div>
   );
 }

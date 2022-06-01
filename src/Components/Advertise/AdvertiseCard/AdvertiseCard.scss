@@ -1,0 +1,51 @@
+@import "../../../Variables/SassVariables.scss";
+
+.card-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 284px;
+  padding: 32px;
+  position: relative;
+  width: 327px;
+
+  &:nth-child(2) {
+    margin: 90px 0 90px 0;
+  }
+
+  .card-content {
+    color: $grey;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .card-img-container {
+    align-items: center;
+    background-color: $violet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 88px;
+    left: 37%;
+    position: absolute;
+    top: -15%;
+    width: 88px;
+
+    .card-img {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  .card-title {
+    color: $darkViolet;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 45px;
+  }
+}
