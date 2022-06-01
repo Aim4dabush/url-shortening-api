@@ -1,0 +1,79 @@
+@import "../../Variables/SassVariables.scss";
+
+.footer-container {
+  align-items: center;
+  background-color: $darkViolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 776px;
+  left: -24px;
+  padding: 56px 103px;
+  position: relative;
+  width: 375px;
+
+  .footer-image-container {
+    background-color: white;
+    height: 33px;
+    width: 121px;
+  }
+
+  .footer-links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+
+    .company {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      width: 100%;
+    }
+
+    .features {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .footer-title {
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .links {
+      list-style: none;
+      margin-bottom: 0;
+      margin-top: 22px;
+      padding: 0;
+
+      .link {
+        text-align: center;
+        a {
+          color: white;
+          font-weight: 200;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .resources {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      width: 100%;
+    }
+  }
+
+  .footer-media {
+    display: flex;
+    font-size: 24px;
+    margin-top: 48px;
+    gap: 24px;
+  }
+}

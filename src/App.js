@@ -1,6 +1,7 @@
 //components
 import Advertise from "./Components/Advertise/Advertise";
 import Boost from "./Components/Boost/Boost";
+import Footer from "./Components/Footer/Footer";
 import Intro from "./Components/Intro/Intro";
 import MainFeature from "./Components/MainFeature/MainFeature";
 import Navbar from "./Components/Navbar/Navbar";
@@ -23,6 +24,7 @@ function App() {
       <MainFeature />
       <Advertise />
       <Boost />
+      <Footer />
     </div>
   );
 }
