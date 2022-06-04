@@ -12,6 +12,11 @@ import "./Advertise.scss";
 function Advertise() {
   return (
     <div className="advertise-container">
+      <h2 className="advertise-title">Advanced Statistics</h2>
+      <p className="advertise-info">
+        Track how your links are performing across the web with our advanced
+        statistics dashboard.
+      </p>
       {advertisements.map((item) => {
         return (
           <AdvertiseCard

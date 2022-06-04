@@ -1,0 +1,38 @@
+@import "../../Variables/SassVariables.scss";
+
+.link-mods-container {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  left: -24px;
+  position: relative;
+  padding-top: 111px;
+  width: 375px;
+  z-index: 2;
+
+  .link-card {
+    background-color: white;
+    border-radius: 5px;
+    height: 155px;
+    margin-top: 24px;
+    width: 327px;
+    padding: 16px;
+
+    button {
+      background-color: $cyan;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      height: 40px;
+      margin-top: 8px;
+      width: 295px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

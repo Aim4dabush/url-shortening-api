@@ -7,17 +7,10 @@
   display: flex;
   flex-direction: column;
   height: 284px;
-  padding: 32px;
+  margin-bottom: 90px;
+  padding: 24px;
   position: relative;
   width: 327px;
-
-  &:nth-child(3) {
-    margin-bottom: 80px;
-  }
-
-  &:nth-child(2) {
-    margin: 90px 0 90px 0;
-  }
 
   .card-content {
     color: $grey;
